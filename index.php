@@ -14,7 +14,6 @@ if(strstr($url,'/pricing',false)){
 }
 
 
-
 $dir    = __DIR__.'/views';
 
 $files = array_slice(scandir($dir), 2); 
